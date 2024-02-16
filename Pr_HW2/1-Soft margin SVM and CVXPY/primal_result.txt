@@ -1,0 +1,4 @@
+status: optimal
+optimal value 746.2681355070262
+optimal var w [-1.00209063  3.64672864]
+optimal var b -1.8672371701191284

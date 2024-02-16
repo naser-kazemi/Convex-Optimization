@@ -1,0 +1,30 @@
+Classification report for SVM:
+              precision    recall  f1-score   support
+
+          -1       0.85      0.96      0.90        52
+           1       0.90      0.68      0.78        28
+
+    accuracy                           0.86        80
+   macro avg       0.88      0.82      0.84        80
+weighted avg       0.87      0.86      0.86        80
+
+Classification report for SVM with linear kernel on circular data:
+              precision    recall  f1-score   support
+
+          -1       0.93      0.30      0.46        43
+           1       0.55      0.97      0.70        37
+
+    accuracy                           0.61        80
+   macro avg       0.74      0.64      0.58        80
+weighted avg       0.75      0.61      0.57        80
+
+Classification report for SVM with RBF kernel on circular data:
+              precision    recall  f1-score   support
+
+          -1       1.00      1.00      1.00        43
+           1       1.00      1.00      1.00        37
+
+    accuracy                           1.00        80
+   macro avg       1.00      1.00      1.00        80
+weighted avg       1.00      1.00      1.00        80
+
